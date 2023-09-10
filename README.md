@@ -15,7 +15,7 @@ A simple yet powerful tool to set up multi-hop configurations with WireGuard, en
 To quickly install the WireGuard Multi-hop Service, run the following command:
 
 ```bash
-curl -sL https://raw.githubusercontent.com/sahelea1/wireguard-multihop-service/main/install.sh | bash
+git clone https://github.com/sahelea1/wireguard-multihop-service.git && cd wireguard-multihop-service && sudo bash install.sh
 ```
 
 **Note**: Always inspect scripts downloaded from the internet before executing them for security reasons.
