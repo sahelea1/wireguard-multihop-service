@@ -1,0 +1,11 @@
+[[chain]]
+interfaces = ["/path/to/serve1.conf", "/path/to/serve2.conf"]
+wan_interface = "eth0"
+
+[[chain]]
+interfaces = ["/path/to/serve3.conf", "/path/to/serve4.conf"]
+wan_interface = "eth0"
+
+[system]
+enable_ip_forwarding = true
+
